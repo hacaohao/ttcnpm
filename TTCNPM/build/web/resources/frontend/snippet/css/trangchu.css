@@ -1,0 +1,92 @@
+/* Home Page Carousel */
+      div.carousel {
+          height: 68%;
+      }
+
+      div.carousel .item,
+      div.carousel .item.active,
+      div.carousel .carousel-inner {
+          height: 100%;
+      }
+
+      div.carousel .fill {
+          width: 100%;
+          height: 100%;
+          background-position: center;
+          background-size: cover;
+      }
+      
+      .categories ul {
+        list-style-type: none ;
+        padding-left: 5px;
+        margin-top: 10px;
+        padding-right: 5px
+      }
+
+      .categories li {
+        padding-top: 4px ;
+        padding-bottom: 4px;
+      }
+
+      .title {
+        padding-left: 10px;
+        border-bottom: 1px solid #bfbfbf;
+        border-top: 1px solid #bfbfbf;
+        margin-bottom: 10px;
+        background: url(../images/topbar.jpg) repeat-x;
+      }
+      .title h4 {
+        font-weight: bold; 
+        color: #666 ;
+        font-size: 15px;
+      }
+
+      .left-content, .right-content, .mid-content {
+        border: 1px solid #bfbfbf;
+        box-shadow: 0 1px 6px 0 #b8b8b8;
+      }
+
+      .link-more a {
+        float: right;
+      }
+
+      .book-name, .book-author, .book-price { 
+        margin-bottom: 2px;
+      }
+
+      .book-name {
+        font-weight: bold;
+      }
+
+      .mid-content p.book-author, .mid-content p.book-price, .mid-content p.book-name {
+        font-size: 14px;
+      }
+
+      .right-content p.book-author, .right-content p.book-price, .right-content p.book-name {
+        font-size: 12px;
+      }
+
+      .box {
+        padding-bottom: 10px;
+      }
+      .item-list {
+        margin: 0px 10px 10px 5px;
+      }
+      .link-more {
+        margin-right: 10px;
+      }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .right-content .book-name, .right-content .book-author, .right-content .book-price {
+          text-align: center;
+        }
+        .item {
+          margin-bottom: 10px;
+        }
+      }
+
+      @media screen and (max-width: 767px) {
+        .item {
+          margin-bottom: 10px;
+        }
+
+      }

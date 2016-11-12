@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-4.0.xsd
+                http://www.springframework.org/schema/mvc
+                http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+ 
+    <!-- declaring base package -->
+    <context:annotation-config />
+    <context:component-scan base-package="controller" />
+     
+    <!-- adding view resolver to show jsp's on browser -->
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/" />
+        <property name="suffix" value=".jsp" />
+        <property name="contentType" value="text/html;charset=UTF-8" />
+    </bean>
+    
+    <bean id="bookDAO" class="dao.BookDAO" />
+    <bean id="bookService" class="service.BookService" />
+    
+    <bean id="categoryDAO" class="dao.CategoryDAO" />
+    <bean id="categoryService" class="service.CategoryService" />
+    
+    <bean id="configDAO" class="dao.ConfigDAO" />
+    <bean id="configService" class="service.ConfigService" />
+    
+    <bean id="employeeDAO" class="dao.EmployeeDAO" />
+    <bean id="employeeService" class="service.EmployeeService" />
+    
+    <bean id="invoiceDAO" class="dao.InvoiceDAO" />
+    <bean id="invoiceService" class="service.InvoiceService" />
+    
+    <bean id="invoiceItemDAO" class="dao.InvoiceItemDAO" />
+    <bean id="invoiceItemService" class="service.InvoiceItemService" />
+    
+    <bean id="memberDAO" class="dao.MemberDAO" />
+    <bean id="memberService" class="service.MemberService" />
+    
+    <bean id="userDAO" class="dao.UserDAO" />
+    <bean id="userService" class="service.UserService" />
+    
+    <bean id="voucherDAO" class="dao.VoucherDAO" />
+    <bean id="voucherService" class="service.VoucherService" />
+    
+    <bean id="cartItemDAO" class="dao.CartItemDAO" />
+    <bean id="cartItemService" class="service.CartItemService" />
+    
+    <mvc:resources mapping="/resources/**" location="/resources/" cache-period="31556926"/>
+    <mvc:annotation-driven />
+</beans>

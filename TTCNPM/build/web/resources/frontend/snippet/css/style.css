@@ -1,0 +1,347 @@
+button{
+    outline: none !important;
+    border: none !important;
+}
+
+.linkClick {
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.smallrow {
+  padding-bottom: 5px;
+}
+
+.btn-login {
+    width: 100px;
+    height: 50px;
+    background-color: #3F8B5E;
+}
+
+#text-login {
+    size: a3;
+}
+
+.btn-fb {
+    background-color: #3535FF;
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    border: none;
+}
+
+.btn-gg {
+    background-color: #FF4242;
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    border: none;
+}
+
+.btn-gg:hover{
+    background-color: #931604;
+}
+/*forget password*/
+
+.code-recognize {
+    background-image: url('../images/code-recognize.png');
+    width: 170px;
+    height: 55px;
+    float: left;
+}
+
+.panel-forget-password{
+    
+}
+
+.panel-heading-forget-password{
+}
+
+.refresh-bt #refresh{
+    background-image: url('../images/refresh.png');
+    width: 55px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    background-color: Transparent;
+    border: none;
+}
+
+.clear {
+    clear: both;
+}
+
+/*infomation*/
+.form-change {
+    background-color: white;
+}
+
+.avatar {
+    position: relative;
+    width: 70%;
+    background-image: url('../images/GokuAvatar.jpg');
+    height: auto;
+    padding-bottom: 85%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 15%;
+}
+
+.under-avatar-frame {
+    padding-left: 15%;
+}
+
+.underAvatar {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.jewel {
+    background-image: url('../images/jewel.png');
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    background-size: cover;
+}
+
+.text-under {
+    font-size: 24px;
+    color: #800040;
+}
+
+.infomation {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.btn-change {
+    margin-left: 10px;
+    width: 110px;
+    height: 40px;
+    background-color: #008040;
+}
+
+.btn-under {
+    text-align: right;
+}
+
+.form-change {
+    border: 1px black solid;
+}
+
+.under-frame {
+    border: 1px black solid;
+}
+
+.btn-save {
+    text-align: center;
+}
+
+.under-frame {
+    background-color: #EAFFD5;
+}
+
+.text-info {
+    margin-left: 10px;
+}
+
+.text-info-frame{
+    width: 94%;
+    margin: 0 auto;
+}
+
+/*book detail*/
+#bookCover {
+    position: relative;
+    height: auto;
+    width: 60%;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+#bookCover img{
+    width: 100%;
+    height: 300px;
+}
+
+.star{
+    background-image: url(../images/star.png);
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.bookIntro {
+    display: block;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+#bookName {
+    font-size: 28px;
+    color: #800040;
+}
+
+.star {
+    text-align: center;
+}
+
+#like {
+    margin-left: 10px;
+}
+
+.cart-frame-detail {
+    background-color: #F5D1C2;
+    height: 260px;
+    border: 1px black solid;
+}
+
+.cartItem {
+    
+    display: block;
+    text-align: center;
+}
+
+#cartTittle {
+    font-size: 28px;
+    color: #000040;
+    margin-bottom: 20px;
+}
+
+#cartIcon {
+    background-image: url(../images/cart.png);
+    width: 60px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20%;
+}
+
+.insertCart {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.infoClass {
+    margin-left: 10px;
+    clear: both;
+    display: block;
+}
+
+#commentTittle, #commentNum{
+    margin-left: 10px;
+}
+
+#infoTittle, #commentTittle, #relativeTittle{
+    font-size: 20px;
+    color: #800040;
+    margin-top: 10px;
+}
+
+
+
+#avatarComment {
+    background-image: url(../images/vegeta.jpg);
+    height: 100px;
+    width: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left : 25px;
+}
+
+#commentContent {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.text-comment-frame {
+    width: 94%;
+    margin: 0 auto;
+}
+
+#replyContent {
+    width: 100%;
+}
+
+.myComment {
+    border: 1px black solid;
+}
+
+#myComment-title {
+    font-size: 16px;
+    color: #000040;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.comment-frame {
+    border-top: 1px black solid;
+}
+
+.book-detail-link {
+    margin-left: 25px;
+}
+
+.submit-comment{
+    margin-left: 25px;
+}
+
+.relative-frame {
+    border-top: 1px black solid;
+}
+
+.relativeBook {
+    position: relative;
+    width: 60%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.relativeBook img{
+    width: 100%;
+    height: 300px;
+}
+
+.book-info-frame{
+    border-top: 1px black solid;
+}
+
+.cost-relative {
+    position: relative;
+    text-align: center;
+    font-size: 150%;
+}
+
+#reply {
+    margin-top: 10px;
+}
+
+/**/
+#history-table {
+    border: 1px silver solid;
+}
+
+.h_align{
+    text-align: center;
+}
+
+#history-title{
+    margin-bottom: 20px;
+}

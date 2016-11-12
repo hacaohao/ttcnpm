@@ -1,0 +1,66 @@
+/* Clear float right or left */
+.clear {
+	clear: both;
+}
+/* Default font */
+html,
+body {
+  	height: 100%;
+  	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+}
+/* hover book */
+.img-book {
+	margin-bottom: 5px;
+	width: 154px;
+	max-height: 200px;
+}
+
+.img-book-boxshadow {
+	border: 1px solid #bfbfbf ;
+	box-shadow: 0 1px 6px 0 #b8b8b8;
+	padding: 2px;
+}
+
+.img-hover:hover {
+	opacity: 0.8;
+}
+/* Default margin between two large-element.*/
+.margin-top {
+	margin-top: 20px;
+}
+
+.margin-bottom {
+	margin-bottom: 20px;
+}
+
+.margin-right {
+	margin-right: 20px;
+}
+
+.margin-left {
+	margin-left: 20px;
+}
+
+.no-padding-right {
+	padding-right: 5px;
+}
+
+.no-padding-left {
+	padding-left: 5px;
+}
+#global-header {
+	margin-bottom: 10px;
+}
+#global-footer {
+	margin-top: 10px;
+}
+.main-content {
+	box-shadow: 0 1px 6px 0 #b8b8b8;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	/* background-color: rgba(247, 248, 250, 0.5); */
+	border-top: 1px solid rgba(204, 204, 204, 0.8);
+	border-bottom: 1px solid rgba(204, 204, 204, 0.8);
+}

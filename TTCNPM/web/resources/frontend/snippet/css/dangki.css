@@ -1,0 +1,44 @@
+#signupmodal .main{
+margin-top: 70px;
+}
+#signupmodal h1.dangkititle { 
+font-size: 50px;
+font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+font-weight: 400; 
+margin-top: 0px;
+margin-bottom: 0px;
+}
+#signupmodal hr{
+width: 10%;
+color: #fff;
+}
+#signupmodal .form-group{
+margin-bottom: 15px;
+}
+#signupmodal label{
+margin-bottom: 15px;
+}
+#signupmodal input,
+input::-webkit-input-placeholder {
+font-size: 14px;
+padding-top: 3px;
+}
+#signupmodal .main-center{
+margin-top: 10px;
+margin: 0 auto;
+padding: 10px 30px;
+}
+#signupmodal .login-button{
+margin-top: 5px;
+}
+#signupmodal .login-register{
+font-size: 11px;
+text-align: center;
+}
+#signupmodal .btn-block {
+   width: 100% ;
+   display: block;
+}
+#signupmodal .close{
+	outline: none;
+}

@@ -1,0 +1,37 @@
+.ttmh .progress {
+	height: 50px;
+}
+.ttmh .progress .progress-bar p{
+	line-height: 50px;
+	font-size: 20px;
+}
+.ttmh .input-email {
+	width: 300px;
+}
+.ttmh .xac-nhan {
+	margin:10px;
+}
+.ttmh button {
+	margin-top: 50px;
+}
+.ttmh .item-list {
+	border: 1px solid #bfbfbf ;
+    padding: 10px;
+    margin-bottom: 10px;   
+    box-shadow: 0 1px 6px 0 #b8b8b8;
+}
+.ttmh .book-name {
+	font-weight: bold;
+}
+
+.ttmh table tr td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+.ttmh .input {
+	width: 250px;
+}
+.ttmh .thanhtoan {
+	margin-left: 25px;
+}

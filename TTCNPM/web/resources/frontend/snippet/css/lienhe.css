@@ -1,0 +1,19 @@
+p {
+	text-align: justify;
+}
+table tr td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+.input {
+	width: 250px;
+}
+.map {
+	height: 250px;
+}
+.goi {
+	width: 80px;
+	font-size: 16px;
+	font-weight: bold;
+}

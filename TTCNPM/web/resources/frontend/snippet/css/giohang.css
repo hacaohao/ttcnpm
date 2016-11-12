@@ -1,0 +1,54 @@
+      .book-name, .book-author, .book-price { 
+        margin-bottom: 2px;
+        font-size: 16px;
+      }
+
+      .book-name {
+        font-weight: bold;
+      }
+
+      .item-title {
+        border-bottom: 1px solid #bfbfbf ;
+      }
+
+      .item {
+        border: 1px solid #bfbfbf ;
+        padding: 10px;
+        margin-bottom: 10px;
+        
+        box-shadow: 0 1px 6px 0 #b8b8b8;
+      }
+      .item-list {
+        margin: 10px 0px;
+      }
+
+      .item:nth-child(even){
+        background-color:  rgba(242, 242, 242, 0.8);
+      }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .item-title h3 {
+          font-size: 18px;
+        }
+        .book-name, .book-author, .book-price {
+          font-size: 16px;  
+        }
+      }
+      @media screen and (min-width: 500px) and (max-width: 767px) {
+        .item-title h3{
+          font-size: 18px;
+        }
+        .book-name, .book-author, .book-price {
+          font-size: 14px;  
+        }
+      }
+      @media screen and (max-width: 499px) {
+        .item-title {
+          display: none;
+        }
+        .book-name, .book-author, .book-price {
+          font-size: 14px;  
+        }
+        .book-name span, .book-author span, .book-price span {
+          display: block;
+        }
+      }

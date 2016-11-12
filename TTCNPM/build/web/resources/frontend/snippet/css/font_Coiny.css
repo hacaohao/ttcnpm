@@ -1,0 +1,28 @@
+/* tamil */
+@font-face {
+  font-family: 'Coiny';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Coiny'), local('Coiny-Regular'), url(https://fonts.gstatic.com/s/coiny/v1/08A278TJf4gOnTdlnscRNA.woff2) format('woff2');
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Coiny';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Coiny'), local('Coiny-Regular'), url(https://fonts.gstatic.com/s/coiny/v1/w4GHNK-lOvYXSqQV7CeHlA.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Coiny';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Coiny'), local('Coiny-Regular'), url(https://fonts.gstatic.com/s/coiny/v1/dLc6kFPyyJVRCRynTSnzOw.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'Coiny';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Coiny'), local('Coiny-Regular'), url(https://fonts.gstatic.com/s/coiny/v1/yLjI2gVbVWWmvUcD--_G4Q.woff2) format('woff2');
+}

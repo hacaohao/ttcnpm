@@ -1,0 +1,3 @@
+<h1>Tài khoản của bạn trên BKBook hiện giờ là</h1>
+<p>Email: ${email}</p>
+<p>Password: ${password}</p>

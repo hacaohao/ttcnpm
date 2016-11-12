@@ -1,0 +1,13 @@
+<h1>Thông tin đơn hàng của bạn</h1>
+<p>Mã đơn hàng: $code</p>
+<p>Họ và tên: $name</p>
+<p>Số điện thoại: $phone</p>
+<p>Địa chỉ: $address</p>
+<p>Phương thức thanh toán: $payment</p>
+<p>F9a8t hàng ngày: $boughtAt</p>
+<p>Tổng giá trị: $totalPrice VND</p>
+<ul>
+  #foreach( $item in $items )
+    <li>$item.book.name : $item.quantity cuốn</li>
+  #end
+</ul>

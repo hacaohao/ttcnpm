@@ -1,0 +1,84 @@
+.phase1 {
+	margin-bottom: 0;
+	background-position: center;
+	background: no-repeat;
+	background-size: cover;
+	border:none;
+	padding-bottom: 10px;
+}
+.phase1 li a {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.name-store {
+	margin-left: 22px;
+}
+.name-store:hover {
+	text-decoration: none;
+}
+.name-store:focus {
+	text-decoration: none;
+}
+.sign-in:active, .sign-in:focus, .sign-in:hover {
+    outline: none;
+    text-decoration: none;
+}
+.name-1 {
+	color: blue;
+	font-size: 60px;
+	font-family: 'Coiny', cursive;
+	line-height: 68px;
+}
+.name-2 {
+	color: red;
+	font-size: 40px;
+	font-family: 'Coiny', cursive;
+	line-height: 45px;
+}
+.mynav-font a{
+            font-size: 15px;
+            font-weight: lighter;
+        }
+.nav-mymenu li{
+    list-style-type: none ;
+    display: inline-block;
+    margin: 5px 15px 5px 0px;
+}
+.nav-mymenu a {
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 40px;
+}
+.nav-mymenu {
+    float: left;
+    margin-top: 15px;
+}
+.myhr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
+.myicon {
+    color: #666666 ;
+    margin-right: 4px;
+}
+.icon-font {
+    margin-left: 10px;
+    font-size: 14px;
+    vertical-align: super;
+}
+.myinput-search {
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    width: 180px;
+    padding: 5px 10px;
+    border-bottom: 2px solid #ccc ;
+    margin-right: 10px;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.75);
+    vertical-align: super;
+}
+.myinput-search:focus, .myinput-search:active  {
+    outline: none;    
+}

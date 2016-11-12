@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/ttcnpm?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.useUnicode">true</property>
+    <property name="hibernate.connection.characterEncoding">UTF-8</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password"/>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.format_sql">true</property>
+    <mapping class="entity.Category"></mapping>
+    <mapping class="entity.Voucher"></mapping>
+    <mapping class="entity.Book"></mapping>
+    <mapping class="entity.Config"></mapping>
+    <mapping class="entity.User"></mapping>
+    <mapping class="entity.Member"></mapping>
+    <mapping class="entity.Employee"></mapping>
+    <mapping class="entity.InvoiceItem"></mapping>
+    <mapping class="entity.CartItem"></mapping>
+    <mapping class="entity.Invoice"></mapping>
+  </session-factory>
+</hibernate-configuration>

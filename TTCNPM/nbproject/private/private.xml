@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/javaWebWorkspace/TTCNPM/web/resources/frontend/snippet/header.jsp</file>
+            <file>file:/D:/javaWebWorkspace/TTCNPM/src/java/entity/Book.java</file>
+            <file>file:/D:/javaWebWorkspace/TTCNPM/src/java/util/Mail.java</file>
+            <file>file:/D:/javaWebWorkspace/TTCNPM/web/redirect.jsp</file>
+            <file>file:/D:/javaWebWorkspace/TTCNPM/src/java/controller/site/CheckoutController.java</file>
+            <file>file:/D:/javaWebWorkspace/TTCNPM/src/java/entity/Invoice.java</file>
+            <file>file:/D:/javaWebWorkspace/TTCNPM/src/java/dao/BookDAO.java</file>
+            <file>file:/D:/javaWebWorkspace/TTCNPM/src/java/invoice_template.vm</file>
+            <file>file:/D:/javaWebWorkspace/TTCNPM/src/java/service/BookService.java</file>
+        </group>
+    </open-files>
+</project-private>
